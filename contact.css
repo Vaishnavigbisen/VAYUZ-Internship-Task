@@ -1,0 +1,45 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,900); */
+
+h1,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.header {
+  width: 100%;
+  padding: 60px 0;
+  text-align: center;
+  background-image: url(https://xintex-group.com/sites/default/files/2018-07/team_2.jpg);
+}
+
+.btn-bgstroke {
+  font-size: 40px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 520px;
+}
+
+.btn-bgstroke:hover {
+  background-color: rgb(255, 122, 244);
+  color: rgb(255, 122, 244);
+}
